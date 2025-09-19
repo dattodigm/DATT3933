@@ -5,11 +5,11 @@ public class Text_Texture : MonoBehaviour
 {
     public float fadeStartDistance = 10f;
     public float fadeEndDistance = 20f;
-    private TextMeshProUGUI textMesh; // Or Text textComponent;
+    private TextMeshPro textMesh; // Or Text textComponent;
 
     void Start()
     {
-        textMesh = GetComponent<TextMeshProUGUI>(); // Or textComponent = GetComponent<Text>();
+        textMesh = GetComponent<TextMeshPro>(); // Or textComponent = GetComponent<Text>();
         if (textMesh == null)
         {
             Debug.LogError("TextMeshProUGUI component not found!");
