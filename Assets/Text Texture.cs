@@ -1,11 +1,13 @@
 using UnityEngine;
-using TMPro; // Or using UnityEngine.UI; for legacy Text
+using TMPro;
+using UnityEngine.Rendering; // Or using UnityEngine.UI; for legacy Text
 
 public class Text_Texture : MonoBehaviour
 {
     public float fadeStartDistance = 10f;
     public float fadeEndDistance = 20f;
     private TextMeshPro textMesh; // Or Text textComponent;
+    public VolumeProfile volumeEffect;
 
     void Start()
     {

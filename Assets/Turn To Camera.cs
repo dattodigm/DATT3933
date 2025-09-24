@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 //Place on Canvas Object
@@ -5,10 +6,11 @@ using UnityEngine;
 public class Turn_To_Camera: MonoBehaviour
 {
     private Transform mainCam;
+    public Camera cameraObject;
 
     private void OnEnable()
     {
-        mainCam = Camera.main.transform;
+        mainCam = cameraObject.transform;
         Debug.Log("Main Cam = " + mainCam.name);
     }
 
