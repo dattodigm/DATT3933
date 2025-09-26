@@ -8,6 +8,7 @@ public class Text_Texture : MonoBehaviour
     public float fadeEndDistance = 20f;
     private TextMeshPro textMesh; // Or Text textComponent;
     public VolumeProfile volumeEffect;
+    public Camera mainCam;
 
     void Start()
     {
@@ -21,9 +22,7 @@ public class Text_Texture : MonoBehaviour
 
     void Update()
     {
-        if (Camera.main == null) return;
-
-        float distance = Vector3.Distance(transform.position, Camera.main.transform.position);
+        float distance = Vector3.Distance(transform.position, mainCam.transform.position);
 
         // Calculate alpha based on distance
         float alpha = Mathf.InverseLerp(fadeEndDistance, fadeStartDistance, distance);
