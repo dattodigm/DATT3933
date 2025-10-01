@@ -11,7 +11,6 @@ public class Turn_To_Camera: MonoBehaviour
     private void OnEnable()
     {
         mainCam = cameraObject.transform;
-        Debug.Log("Main Cam = " + mainCam.name);
     }
 
     private void LateUpdate()
