@@ -14,7 +14,8 @@ public class MarkerIndicator : MonoBehaviour
     public string overrwiteToken;
     public int videoLength;
 
-    public CameraMovement playerMovement;
+    public PlayerMovement playerMovement;
+    public CameraMovement cameraMovement;
 
     bool done;
 
@@ -28,6 +29,7 @@ public class MarkerIndicator : MonoBehaviour
         if (done == false)
         {
             playerMovement.enabled = false;
+            cameraMovement.enabled = false;
             cutsceneSetup.PlayDemoCutscene(videoLength, overrwiteToken);
             StartCoroutine(MyDelayedAction());
         }
@@ -38,6 +40,7 @@ public class MarkerIndicator : MonoBehaviour
         Debug.Log("Watching Movie");
         yield return new WaitForSeconds(videoLength);
         playerMovement.enabled = true;
+        cameraMovement.enabled = true;
         Restored.SetActive(true);
         Destroyed.SetActive(false);
         done = true;

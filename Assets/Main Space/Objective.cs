@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class ObjectiveTextureHeirarchy : MonoBehaviour
 {
-
     public Transform RoadLocation;
     public Transform River1Location;
     public Transform River2Location;
@@ -11,7 +10,7 @@ public class ObjectiveTextureHeirarchy : MonoBehaviour
     public Transform PeopleLocation;
 
     private Transform currentObjective;
-    private Camera mainCam;
+    public Camera mainCam;
 
     public float fadeStartDistance = 10f;
     public float fadeEndDistance = 20f;
@@ -22,7 +21,6 @@ public class ObjectiveTextureHeirarchy : MonoBehaviour
     void Start()
     {
         currentObjective = ForestLocation;
-        mainCam = GetComponent<Camera>();
     }
 
     // Update is called once per frame
