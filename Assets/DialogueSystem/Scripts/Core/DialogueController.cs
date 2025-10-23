@@ -1,15 +1,14 @@
 using System.Collections;
-using DialogueSystem.Scripts.Core;
-using DialogueSystem.Scripts.UI;
 using UnityEngine;
 using TMPro;
+
 
 namespace DialogueSystem.Scripts.Core
 {
     public class DialogueController : MonoBehaviour
     {
         [Header("UI References")]
-        public DialogueUI dialogueUI;
+        public UI.DialogueUI dialogueUI;
 
         [Header("Typing effect settings")]
         public float typingSpeed = 0.05f;
