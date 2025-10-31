@@ -1,8 +1,14 @@
 <!-- UNITY CODE ASSIST INSTRUCTIONS START -->
 - Project name: ECO
-- Unity version: Unity 6000.2.4f1
+- Unity version: Unity 6000.0.59f2
+- Active scene:
+  - Name: AudioModify
+  - Tags:
+    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController
+  - Layers:
+    - Default, TransparentFX, Ignore Raycast, Post Processing, Water, UI
 - Active game object:
-  - Name: Borders
+  - Name: Zone Ambiance — People
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
