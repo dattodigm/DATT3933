@@ -1,4 +1,4 @@
-Shader "WobblyLife/Default/WobblyParticleUnlitCutout" {
+Shader "Particle/Weather/ParticleUnlitCutout" {
 	Properties {
 		_ParticleBillboardReplacement ("Particle Billboard Replacement", 2D) = "white" {}
 		_Cutoff ("Mask Clip Value", Float) = 0.5

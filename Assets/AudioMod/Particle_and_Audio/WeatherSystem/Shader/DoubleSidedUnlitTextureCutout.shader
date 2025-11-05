@@ -1,4 +1,4 @@
-Shader "WobblyLife/Default/WobblyDoubleSidedUnlitTextureCutout" {
+Shader "Particle/Weather/DoubleSidedUnlitTextureCutout" {
 	Properties {
 		_Cutoff ("Mask Clip Value", Float) = 0.5
 		_MainTexture ("Main Texture", 2D) = "white" {}

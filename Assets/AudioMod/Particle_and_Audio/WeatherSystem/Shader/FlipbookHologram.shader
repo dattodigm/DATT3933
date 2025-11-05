@@ -1,4 +1,4 @@
-Shader "WobblyLife/Custom/Space/FlipbookHologram" {
+Shader "Particle/Weather/FlipbookHologram" {
 	Properties {
 		_TextureSample0 ("Texture Sample 0", 2D) = "white" {}
 		_Emission ("Emission", Float) = 1

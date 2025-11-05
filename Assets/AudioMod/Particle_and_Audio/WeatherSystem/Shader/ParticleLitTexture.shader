@@ -1,4 +1,4 @@
-Shader "WobblyLife/Default/WobblyParticleLitTexture" {
+Shader "Particle/Weather/ParticleLitTexture" {
 	Properties {
 		_ParticleBillboardReplacement ("Particle Billboard Replacement", 2D) = "white" {}
 		[HideInInspector] _texcoord ("", 2D) = "white" {}

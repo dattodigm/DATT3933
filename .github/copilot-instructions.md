@@ -8,7 +8,7 @@
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Post Processing, Water, UI
 - Active game object:
-  - Name: Ice 
+  - Name: Ice Tunnel Snow Fall gong Room
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

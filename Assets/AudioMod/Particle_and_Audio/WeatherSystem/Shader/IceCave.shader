@@ -1,4 +1,4 @@
-Shader "WobblyLife/Custom/WobblyIceCave" {
+Shader "Particle/Weather/IceCave" {
 	Properties {
 		_BaseColour ("Base Colour", Vector) = (0.2406042,0.6449719,0.7830189,0)
 		_HighLightColour ("HighLight Colour", Vector) = (0.5114682,0.782253,0.8396226,1)
